@@ -1,0 +1,274 @@
+.split img{
+	height: 78.64px;
+	width: 100%;
+  	text-align: center;
+  	padding:4px;
+}
+.cabinet img{
+	height: 150px;
+	width: 30%;
+  	text-align: center;
+    padding:4px;
+}
+.cassette img{
+	height: 156.64px;
+	width: 100%;
+  	text-align: center;
+  	padding:4px;
+}
+.col-lg-3{
+	border: 1px solid rgba(128, 128, 128, 0.103);
+	text-align: center;
+	/*padding: 20px;*/
+	justify-content: space-between;
+	margin: 40px;
+	padding: 30px;
+    box-shadow: 10px 10px 10px lightgray;
+    overflow: hidden;
+}
+.col-lg-3:hover{
+    transform: scale(1.09);
+    transition:1s ;
+    background-color: rgba(128, 128, 128, 0.103);
+}
+.col-lg-12{
+	text-align: left;
+	color: #078dec;
+	text-shadow: 2px 2px 10px #078dec;
+    margin-bottom: 40px;
+    margin-top: 50px;
+	text-transform: uppercase;
+}
+span{
+	font-size: 55px;
+}
+body{
+    margin:0 auto;
+}
+h3{
+	color: #078dec;
+}
+p{
+	color: gray;
+}
+body{
+    margin:0 auto;
+}
+.contain{
+    width: 90%;
+    margin:0 auto;
+}
+.content {
+    background-color: rgb(7, 141, 236,0.60);
+    padding: 14px 0px;
+    width: 100%;
+}
+.dflex{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#nav-toggler{
+    display: none;
+  }
+.logoo
+{
+    padding-left:50px;
+}
+.next nav ul li a{
+    text-decoration: none;
+
+}
+nav ul li{
+    display:inline-block;
+    text-decoration: none;
+    position: relative;
+}
+nav ul{
+  margin: 0px;
+}
+nav ul li a{
+    padding:10px;
+    color:white;
+    display: block;
+    font-family:raleway;
+    font-size:20px;
+    font-family: "Qanto";
+    position: relative;
+    text-decoration:none;
+}
+nav ul li a:hover:after{
+  transition: 0.5s;
+  width: 100%;
+}
+nav ul li a:after{
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0%;
+  background: white;
+  left: 0px;
+  bottom: 0px;
+}
+ul li a{
+    padding: 0px 10px;
+    color:white;
+    font-family:raleway;
+    font-size:17px;
+    font-family: "Qanto";
+    text-decoration:none;
+}
+.sub-menu li{
+    display:block;
+    width:140px;
+    padding:0px;
+    margin: 0px;
+}
+.sub-menu{
+    transition: all 0.3s ease 0s;
+    position:absolute;
+    padding-left:0px;
+    background-color:rgb(7, 141, 236,0.60);
+    display:none;
+}
+nav ul li a:hover{
+    transition:1s;
+    color:white;
+}
+ul li:hover .sub-menu{
+    display: block;
+    animation:1s fadeIn 1;
+    padding: 0px;
+}
+.mail
+{
+    width: 30px;
+    height: 20px;
+}
+.custom-slider{
+    height: 700px;
+    animation: 25s slider infinite;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #078dec;
+  }
+  @keyframes slider {
+      0%{
+        background-image: url('../files/pics/download\ \(3\).png');
+      }
+      25%{
+        background-image: url('../files/pics/getimg.png');
+      }
+      50%{
+        background-image: url('../files/pics/slider-4.jpg');
+      }
+      75%{
+        background-image: url('../files/pics/daikin-familia-900x570.jpg');
+      }
+      100%{
+        background-image: url('../files/pics/slider-5.jpg');
+      }
+  }
+.contain h1{
+    font-family: "Bauhaus 93";
+    margin: 0 auto;
+    font-size:55px;
+    color: white;
+    text-shadow: -6px 4px 1px #078dec;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.contain h5{
+    margin: 5px 0px;
+    padding-left: 100px;
+}
+.contain h5 a
+{
+    text-align: center;
+    font-family: anton;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid white;
+    background-color: white;
+    color: #078dec;
+    text-shadow: 2px 2px 10px #078dec;
+    padding: 10px 50px;
+    border-radius: 30px;
+
+}
+.contain h5 a:hover
+{
+    background-color: #078dec;
+    color: white;
+    border: 1px solid #078dec;
+}
+.logos
+{
+    text-align: center;
+	padding: 20px;
+	background-color: rgba(128, 128, 128, 0.103);
+}
+.logos a
+{
+    margin: 15px;
+    padding: 15px;
+}
+.clearfix
+{
+  clear: both;
+}
+.logo{
+	height: 87px;
+	width: 280px;
+	padding-top: 10px;
+}
+.page-footer{
+	background-image: url(../files/pics/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.back
+{
+	background-image: url(../files/pics/back.png);
+	background-size: cover;
+	padding-bottom: 100px;
+	background-attachment: fixed;
+}
+.list-unstyled li a
+{
+	color: white;
+	text-decoration:none;
+	 
+}
+.list-inline-item i
+{
+	border:2px solid white;
+	padding: 10px 12.5px;
+	border-radius: 45px;
+	background-color: white;
+}
+.list-inline-item i:hover
+{
+	border:2px solid #32c3f4;
+	padding: 10px 12.5px;
+	border-radius: 45px;
+	background-color:#32c3f4 ;
+}
+.copy
+{
+	color: whitesmoke;
+	text-decoration:none;
+}
+.copy:hover{
+	color: #32c3f4;
+}
+h5{
+	color: #240044;
+}
+.btn
+{
+	background-color:#32c3f4 ;
+}

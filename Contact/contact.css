@@ -1,0 +1,238 @@
+body{
+    margin:0 auto;
+}
+.contain{
+    width: 90%;
+    margin:0 auto;
+}
+.content {
+    background-color: rgb(7, 141, 236,0.60);
+    padding: 14px 0px;
+    position: relative;
+}
+.dflex{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.logo
+{
+    padding-left:50px;
+}
+.next nav ul li a{
+    text-decoration: none;
+
+}
+nav ul li{
+    display:inline-block;
+    text-decoration: none;
+    position: relative;
+}
+nav ul{
+  margin: 0px;
+}
+nav ul li a{
+    padding:10px;
+    color:white;
+    display: block;
+    font-family:raleway;
+    font-size:20px;
+    font-family: "Qanto";
+    position: relative;
+    text-decoration:none;
+}
+nav ul li a:hover:after{
+  transition: 0.5s;
+  width: 100%;
+}
+nav ul li a:after{
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0%;
+  background: white;
+  left: 0px;
+  bottom: 0px;
+}
+ul li a{
+    padding: 0px 10px;
+    color:white;
+    font-family:raleway;
+    font-size:17px;
+    font-family: "Qanto";
+    text-decoration:none;
+}
+.sub-menu li{
+    display:block;
+    width:140px;
+    padding:0px;
+    margin: 0px;
+}
+.sub-menu{
+    transition: all 0.3s ease 0s;
+    position:absolute;
+    padding-left:0px;
+    background-color:rgb(7, 141, 236,0.60);
+    display:none;
+}
+nav ul li a:hover{
+    transition:1s;
+    color:white;
+}
+ul li:hover .sub-menu{
+    display: block;
+    animation:1s fadeIn 1;
+    padding: 0px;
+}
+#nav-toggler{
+  display: none;
+}
+.mail
+{
+    width: 30px;
+    height: 20px;
+}
+.custom-slider{
+    height: 700px;
+    background-image: url(../pics/contact.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #078dec;
+  }
+.contain h1{
+    font-family: "Bauhaus 93";
+    margin: 0 auto;
+    font-size:55px;
+    color: rgba(128, 128, 128, 0.103);
+    text-shadow: -6px 4px 1px #078dec;
+    padding-bottom: 20px;
+}
+.contain h5{
+  margin: 5px 0px;
+}
+.contain h5 a
+{
+  text-align: center;
+  font-family: anton;
+  text-decoration: none;
+  font-size: 20px;
+  border: 1px solid #078dec;
+  background-color:#078dec ;
+  color: white;
+  text-shadow: 2px 2px 10px white;
+  padding: 10px 50px;
+  border-radius: 30px;
+
+}
+.contain h5 a:hover
+{
+  background-color: white;
+  color: #078dec;
+  text-shadow: 2px 2px 10px #078dec;
+  border: 1px solid white;
+}
+.logos
+{
+    text-align: center;
+	padding: 20px;
+	background-color: rgba(128, 128, 128, 0.103);
+}
+.logos a
+{
+    margin: 15px;
+    padding: 15px;
+}
+@font-face{
+  font-family: bba;
+  src: url(bauhaus-93/BAUHS93.ttf);
+}
+.contactinfo{
+	margin-top: 20px;
+	margin-left: 100px;
+	color: gray;
+	text-align: left;
+}
+.map img{
+	width: 620px;
+	height: 340px;
+	margin-top: 100px;
+	border: 1px solid lightgray;
+}
+form{
+	margin-left: 20px;
+	color: gray;
+}
+p
+{
+	font-family: sans-serif;
+
+}
+.form h1, h4{
+	color: gray;
+}
+.form{
+	margin-top: 40px;
+	padding: 10px;
+}
+.logo{
+	height: 87px;
+	width: 300px;
+	padding-top: 10px;
+}
+.page-footer{
+	background-image: url(../files/pics/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.back
+{
+	background-image: url(../files/pics/back.png);
+	background-size: cover;
+	padding-bottom: 100px;
+	background-attachment: fixed;
+}
+.list-unstyled li a
+{
+	color: white;
+	text-decoration:none;
+	 
+}
+.list-inline-item i
+{
+	border:2px solid white;
+	padding: 10px 12.5px;
+	border-radius: 45px;
+	background-color: white;
+}
+.list-inline-item i:hover
+{
+	border:2px solid #32c3f4;
+	padding: 10px 12.5px;
+	border-radius: 45px;
+	background-color:#32c3f4 ;
+}
+.copy
+{
+	color: whitesmoke;
+	text-decoration:none;
+}
+.copy:hover{
+	color: #32c3f4;
+}
+h5{
+	color: #240044;
+}
+.btn
+{
+	background-color:#32c3f4 ;
+}
+.clearfix
+{
+  clear: both;
+}
+.text-primary
+{
+  text-shadow: 2px 2px 10px #078dec;
+}
